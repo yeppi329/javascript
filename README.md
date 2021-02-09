@@ -40,8 +40,9 @@
     // HTML5부터 이곳에 자바스크립트 코드 추가 작성하면 안 됨
 </script>
 ```
-[예제 6–3 자바스크립트 파일 작성 및 불러오기](https://github.com/yeppi329/javascript/blob/main/ex6_3)
-예제 6–2의 <script> 태그에 들어 있는 자바스크립트 코드를 lib.js 파일에 저장하고 불러와서 사용하도록 수정하라.  
+	<br>
+[예제 6–3 자바스크립트 파일 작성 및 불러오기](https://github.com/yeppi329/javascript/blob/main/ex6_3)<br>
+예제 6–2의 <script> 태그에 들어 있는 자바스크립트 코드를 lib.js 파일에 저장하고 불러와서 사용하도록 수정하라.  <br>
 ```  
 /* 자바스크립트 파일 lib.js */
 function over(obj) {
