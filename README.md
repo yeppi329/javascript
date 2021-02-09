@@ -35,36 +35,11 @@
   여러 웹 페이지에서 불러 사용<br>
    - 웹 페이지마다 자바스크립트 코드 작성 중복 불필요<br>
    - <script> 태그의 src 속성으로 파일을 불러 사용<br>
-```
-<script src=“파일이름.js”>
-    // HTML5부터 이곳에 자바스크립트 코드 추가 작성하면 안 됨
-</script>
-```
+---
+<script src=“파일이름.js”><br>
+    // HTML5부터 이곳에 자바스크립트 코드 추가 작성하면 안 됨<br>
+</script><br>
+---
 	<br>
-[예제 6–3 자바스크립트 파일 작성 및 불러오기](https://github.com/yeppi329/javascript/blob/main/ex6_3)<br>
-예제 6–2의 <script> 태그에 들어 있는 자바스크립트 코드를 lib.js 파일에 저장하고 불러와서 사용하도록 수정하라.  <br>
-```  
-/* 자바스크립트 파일 lib.js */
-function over(obj) {
-	obj.src="media/banana.png";
-}
-function out(obj) {
-	obj.src="media/apple.png";
-}
-```
-```
-<!DOCTYPE html>
-<html>
-<head><title>외부 파일에 자바스크립트 작성</title>
-<script src="lib.js">
-</script>
-</head>
-<body>
-<h3>마우스 올려 보세요</h3>
-<hr>
-<img src="media/apple.png" alt="이미지" 
-		onmouseover="over(this)"
-		onmouseout="out(this)">
-</body>
-</html>
-```
+[예제 6–3 자바스크립트 파일 작성 및 불러오기](https://github.com/yeppi329/javascript/blob/main/ex6_3)
+	<br>
