@@ -17,4 +17,5 @@
   3. 자바스크립트 파일에 작성<br>
   4. URL 부분에 작성<br>
 
-<a href = "예제 6-1 HTML 태그의 이벤트 리스너 속성에 자바스크립트 코드 작성
+<a href="https://github.com/yeppi329/javascript/blob/main/ex6_1">
+예제 6-1 HTML 태그의 이벤트 리스너 속성에 자바스크립트 코드 작성</a>
