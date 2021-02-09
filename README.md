@@ -39,7 +39,6 @@
     <script src=“파일이름.js”><br>
         // HTML5부터 이곳에 자바스크립트 코드 추가 작성하면 안 됨<br>
     </script><br>
-
-	<br>
+<br>
 [예제 6–3 자바스크립트 파일 작성 및 불러오기](https://github.com/yeppi329/javascript/blob/main/ex6_3)
 	<br>
