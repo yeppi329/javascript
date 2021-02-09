@@ -46,7 +46,8 @@
   자바스크립트로 HTML 콘텐츠를 웹 페이지에 직접 삽입<br>
    - 바로 브라우저 윈도우에 출력<br>
    - document.write()<br>
-        예)document.write("<h3>Welcome!</h3>");
+   
+    document.write("<h3>Welcome!</h3>");
    - document.writeln()용<br>
        - document.writeln()<br>
        - '\n'을 덧붙이는 것은 고작해야 빈칸 하나 출력<br>
