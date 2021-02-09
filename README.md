@@ -3,14 +3,14 @@
   Netscape Navigator 2.0 브라우저에 최초 탑재<br>
   웹 프로그래밍 개념 창시<br>
 <h3>특징</h3><br>
-  -HTML 문서에 내장<br>
-   -- 조각 소스 코드<br>
-  -스크립트 언어<br>
-   -- 인터프리터 실행<br>
-   -- 컴파일 필요 없음<br>
-  -단순<br>
-   -- C언어 구조 차용<br>
-   -- 배우기 쉬움<br>
+  HTML 문서에 내장<br>
+   - 조각 소스 코드<br>
+  스크립트 언어<br>
+   - 인터프리터 실행<br>
+   - 컴파일 필요 없음<br>
+  단순<br>
+   - C언어 구조 차용<br>
+   - 배우기 쉬움<br>
 <h3>자바스크립트 코드 작성이 가능한 위치</h3><br>
   1. HTML 태그의 이벤트 리스너 속성에 작성<br>
   2. <script></script> 태그에 작성<br>
@@ -40,5 +40,16 @@
         // HTML5부터 이곳에 자바스크립트 코드 추가 작성하면 안 됨<br>
     </script><br>
 <br>
-[예제 6–3 자바스크립트 파일 작성 및 불러오기](https://github.com/yeppi329/javascript/blob/main/ex6_3)
-	<br>
+[예제 6–3 자바스크립트 파일 작성 및 불러오기](https://github.com/yeppi329/javascript/blob/main/ex6_3)<br>
+[예제 6–4 링크의 href에 자바스크립트 코드 작성](https://github.com/yeppi329/javascript/blob/main/ex6_4)<br>
+<h3>자바스크립트로 HTML 콘텐츠 출력</h3>
+  자바스크립트로 HTML 콘텐츠를 웹 페이지에 직접 삽입<br>
+   - 바로 브라우저 윈도우에 출력<br>
+   - document.write()<br>
+        예)document.write("<h3>Welcome!</h3>");
+   - document.writeln()용<br>
+       - document.writeln()<br>
+       - '\n'을 덧붙이는 것은 고작해야 빈칸 하나 출력<br>
+       - 다음 줄로 넘어가는 것은 아님<br>
+	
+	
