@@ -43,7 +43,7 @@
 [예제 6–3 자바스크립트 파일 작성 및 불러오기](https://github.com/yeppi329/javascript/blob/main/ex6_3)<br>
 [예제 6–4 링크의 href에 자바스크립트 코드 작성](https://github.com/yeppi329/javascript/blob/main/ex6_4)<br>
 <h3>자바스크립트로 HTML 콘텐츠 출력</h3>
-  자바스크립트로 HTML 콘텐츠를 웹 페이지에 직접 삽입
+  자바스크립트로 HTML 콘텐츠를 웹 페이지에 직접 삽입<br>
    - 바로 브라우저 윈도우에 출력<br>
    - document.write()<br>
    
