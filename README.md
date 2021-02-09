@@ -11,3 +11,22 @@
   단순<br>
    - C언어 구조 차용<br>
    - 배우기 쉬움<br>
+<h3>자바스크립트 코드 작성이 가능한 위치</h3><br>
+  1. HTML 태그의 이벤트 리스너 속성에 작성<br>
+  2. <script></script> 태그에 작성<br>
+  3. 자바스크립트 파일에 작성<br>
+  4. URL 부분에 작성<br>
+  
+  <!DOCTYPE html>
+<html>
+<head>
+<title>이벤트 리스너 속성에 자바스크립트 코드</title>
+</head>
+<body>
+<h3>마우스 올려 보세요</h3>
+<hr>
+<img src="media/apple.png" alt="이미지" 
+			onmouseover="this.src='media/banana.png'"
+			onmouseout="this.src='media/apple.png'">
+</body>
+</html>
